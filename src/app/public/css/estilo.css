@@ -1,0 +1,96 @@
+.menuBar{
+    -fx-background-color: rgba(40,60,100,.95);
+}
+.button {
+    -fx-background-color: rgba(80,100,150,.95);
+    -fx-text-fill: rgba(255,255,255,.75);
+    -fx-font-size: 150%;
+    -fx-text-align: left;
+    -fx-padding: 0px 0px 0px 15px;
+    -fx-alignment:  center-left;
+}
+.button:hover, .button:focus {
+    -fx-background-color: rgba(70,90,230,.95);
+    -fx-text-fill: rgba(255,255,255,.95);
+    -fx-font-weight: bold;
+}
+.button:pressed {
+    -fx-background-color: rgba(170,190,250,.95);
+    -fx-text-fill: rgba(255,255,255,.25);
+}
+.awes {
+    -fx-stroke: rgba(255,255,255,.95);
+    -fx-stroke-width: 1px;
+    -fx-stroke-type: outside;
+    -fx-fill: rgba(40,70,100,.95);
+    -fx-min-Height:         40px;
+    -fx-min-Width:          40px;
+    -fx-max-Height:         50px;
+    -fx-max-Width:          50px;
+    -fx-pref-Height:         50px;
+    -fx-pref-Width:          50px;
+    -fx-font-size:          150%;
+    -fx-size:               2em;
+}
+.button:hover .awes, .button:focus .awes {
+    -fx-stroke-width: 1px;
+    -fx-stroke: rgba(255,255,255,1);
+    -fx-fill: rgba(255,255,255,.95);
+}
+.pnlTit {
+    -fx-background-color: rgba(40,70,100,.95);
+    -fx-padding: 0px 0px 0px 15px;
+}
+.pnlCont {
+    -fx-background-color: rgba(40,70,100,.95);
+    -fx-padding: 0px 0px 0px 0px;
+}
+.pnlTitVbox {
+    -fx-background-color: rgba(255,255,255,.001);
+}
+.pnlTrgt {
+    -fx-background-color: rgba(40,70,100,.95);
+    /*-fx-border-radius: 20px;
+    -fx-background-radius: 20px;*/
+}
+.pnlOtrs {
+    -fx-background-color: rgba(210,235,255,.95);
+    -fx-border-radius: 20px 20px 0px 0px;
+    -fx-background-radius: 20px 20px 0px 0px;
+}
+.pnlInfr {
+    -fx-background-color: rgba(200,228,255,.95);
+    -fx-border-radius: 0px 0px 20px 20px;
+    -fx-background-radius: 0px 0px 20px 20px;
+}
+.label {
+    -fx-padding: 0px 0px 0px 10px;
+    -fx-font-size: 120%;
+}
+.lblTit, .title {
+    -fx-font-size: 130%;
+    -fx-text-fill: rgba(255,255,255,.75);
+    -fx-text-align: left;
+    -fx-alignment:  center-left;
+}
+.title {
+    -fx-font-size: 250%;
+    -fx-font-weight: bold;
+}
+.btnForm {
+    -fx-background-color:   #5599CC;
+    -fx-text-fill:          #FFF;
+    -fx-border-color:       #FFF;
+    -fx-border-width:       2;
+    -fx-border-radius:      5;
+    -fx-background-radius:  5;
+    -fx-font-size:          130%;
+    -fx-alignment:          CENTER-LEFT;
+    -fx-text-Fill:          WHITE;
+    -fx-max-Height:         38.0;
+    -fx-max-Width:          130.0;
+    -fx-graphic-text-gap:   10;
+    -fx-pref-height:        38.0;
+    -fx-pref-Width:         127.0;
+    -fx-margin:             0px 0px 0px 50px;
+}
