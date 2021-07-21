@@ -1,5 +1,6 @@
 package app;
 
+import app.model.oconnect;
 import app.util.AlertBox;
 import app.util.ConfirmBox;
 import javafx.application.Application;
@@ -32,6 +33,7 @@ public class Main extends Application {
         });
 
         primaryStage.show();
+        //Connection oConn = oconnect.Connect();
     }
 
     private void CloseWindow() {

@@ -19,7 +19,7 @@ public class ppalController implements Initializable {
     String strPath, strTitle = "";
 
     @FXML
-    private Button btnStud, btnTeac, btnFees, btnUser, btnSett, btnClos;
+    private Button btnDats, btnStud, btnTeac, btnFees, btnUser, btnSett, btnClos;
 
     @FXML
     private AnchorPane pnlCont, pnlEnca, pnlTitl;
@@ -44,10 +44,14 @@ public class ppalController implements Initializable {
 
     @FXML
     public void handleClick(ActionEvent e) throws IOException {
-        if (e.getSource() == btnStud) {
+        if (e.getSource() == btnDats) {
+            srcPane = FXMLLoader.load(getClass().getResource("../vistas/datos_perso.fxml"));
+            strPath = "datos_perso";
+            strTitle = "Datos Personales del Alumnos";
+        }else if (e.getSource() == btnStud) {
             srcPane = FXMLLoader.load(getClass().getResource("../vistas/alumnos.fxml"));
-            strPath = "alumnos";
-            strTitle = "Control de Alumnos";
+            strPath = "profesores";
+            strTitle = "Control de Profesores";
         }else if (e.getSource() == btnTeac) {
             srcPane = FXMLLoader.load(getClass().getResource("../vistas/profesor.fxml"));
             strPath = "profesores";
